@@ -18,8 +18,13 @@ cask "waypoint" do
 
   app "Waypoint.app"
 
+  # Not all of Application Support/Waypoint: Windows/ holds each Windows
+  # game's Wine prefix, with its saves and settings.
   zap trash: [
-    "~/Library/Application Support/Waypoint",
+    "~/Library/Application Support/dev.waypoint.launcher",
+    "~/Library/Application Support/Waypoint/Downloads",
+    "~/Library/Application Support/Waypoint/installs.json",
+    "~/Library/Application Support/Waypoint/Runtimes",
     "~/Library/Caches/dev.waypoint.launcher",
     "~/Library/HTTPStorages/dev.waypoint.launcher",
     "~/Library/Logs/Waypoint",
