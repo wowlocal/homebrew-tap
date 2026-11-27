@@ -1,6 +1,6 @@
 cask "waypoint" do
-  version "1.2.2"
-  sha256 "f4e179f2151db0066172903922f50bc888ed5c617953a138f02035e67343a845"
+  version "1.2.3"
+  sha256 "7bb3df043216f714a472969368c958c81bdb6819627843371b1ba65b53fa9065"
 
   url "https://github.com/wowlocal/waypoint-launcher/releases/download/v#{version}/Waypoint-#{version}.dmg"
   name "Waypoint"
